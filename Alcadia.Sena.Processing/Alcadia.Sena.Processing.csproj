@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Alcadia.Sena.Models\Alcadia.Sena.Models.csproj" />
+    <ProjectReference Include="..\Alcadia.Sena.Repository\Alcadia.Sena.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
