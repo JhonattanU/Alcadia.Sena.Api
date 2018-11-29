@@ -17,4 +17,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Alcadia.Sena.Models\Alcadia.Sena.Models.csproj" />
+    <ProjectReference Include="..\Alcadia.Sena.Processing\Alcadia.Sena.Processing.csproj" />
+  </ItemGroup>
+
 </Project>
